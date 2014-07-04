@@ -1,8 +1,8 @@
-[init配置（不需要安装第三方模块）](https://github.com/malakaw/my_emacs/blob/master/config_file_list/readme_emacs.md "title")
+[init常用配置（不需要安装第三方模块）](https://github.com/malakaw/my_emacs/blob/master/config_file_list/readme_emacs.md "title")
 
 ### init配置（python） ###
 
-# 基本使用快捷键 #
+## 剪切复制快捷键 ##
 * C-d delete-char
 * M-d kill-word
 * M-y 按下C-y后，按一次或多次M-y 会循环取出kill-ring中的内容，然后贴到当
