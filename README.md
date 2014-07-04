@@ -1,5 +1,4 @@
-### init配置（不需要安装第三方模块） ###
-[link text](http://url.com/ "title")
+[init配置（不需要安装第三方模块）](https://github.com/malakaw/my_emacs/blob/master/config_file_list/readme_emacs.md "title")
 
 ### init配置（python） ###
 
