@@ -11,6 +11,7 @@ FAQ
 (set-fontset-font "fontset-default" 'gb18030' ("STHeiti" . "unicode-bmp"))
 </pre>
 * 如何复制光标所在的单词
+<br/>
 <per>
 (defun get-point (symbol &optional arg)
   "get the point"
