@@ -1,7 +1,7 @@
 <center>
 FAQ
 </center>
-
+# 不需要安装第三方模块 #
 * 注释字符乱码怎么处理
 <br/>
 注释的中文会出现乱码的情况在emacs配置中添加
@@ -45,7 +45,5 @@ FAQ
   ;;(paste-to-mark arg)
   )
 (global-set-key (kbd "C-c w")         (quote copy-word))
-</code>
-</pre>
-<br/>
+</code></pre>
 **快捷键  C-c w**
