@@ -223,7 +223,7 @@
 (setq sql-connection-alist
       '((pool-a
          (sql-product 'mysql)
-         (sql-server "192.168.44.66")
+         (sql-server "192.168.x.x")
          (sql-user "reco")
          (sql-password "reco")
          (sql-database "reco_profile")
