@@ -55,3 +55,42 @@ FAQ
 C-q is for quoted-insert, and C-j is a newline (0xa).
 <br/>
 替换就是 M-x replace-string
+* 移动／复制／剪切行
+<br/>
+<pre><code>
+(defun move-line-up ()
+  "Move up the current line."
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2)
+  (indent-according-to-mode))
+(defun move-line-down ()
+  "Move down the current line."
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+  (forward-line -1)
+  (indent-according-to-mode))
+(global-set-key [(meta shift up)]  'move-line-up)
+(global-set-key [(meta shift down)]  'move-line-down)
+(global-set-key "\M-w"
+                (lambda ()
+                  (interactive)
+                  (if mark-active
+                      (kill-ring-save (region-beginning)
+                                      (region-end))
+                    (progn
+                      (kill-ring-save (line-beginning-position)
+                                      (line-end-position))
+                      (message "copied line")))))
+(global-set-key "\C-w"
+                (lambda ()
+                  (interactive)
+                  (if mark-active
+                      (kill-region (region-beginning)
+                                   (region-end))
+                    (progn
+                      (kill-region (line-beginning-position)
+                                   (line-end-position))
+                      (message "killed line")))))
+</code></pre>
