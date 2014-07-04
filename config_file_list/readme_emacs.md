@@ -55,7 +55,7 @@ FAQ
 C-q is for quoted-insert, and C-j is a newline (0xa).
 <br/>
 替换就是 M-x replace-string
-* 移动／复制／剪切行
+* 如何移动／复制／剪切行
 <br/>
 <pre><code>
 (defun move-line-up ()
@@ -94,3 +94,9 @@ C-q is for quoted-insert, and C-j is a newline (0xa).
                                    (line-end-position))
                       (message "killed line")))))
 </code></pre>
+**C-w  剪切行**
+<br/>
+**M-w  复制行**
+<br/>
+**meta shift up/down 上下移动行**
+<br/>
