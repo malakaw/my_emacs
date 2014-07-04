@@ -47,3 +47,11 @@ FAQ
 (global-set-key (kbd "C-c w")         (quote copy-word))
 </code></pre>
 **快捷键  C-c w**
+
+* 如何替换“换行符”或是自动添加一行
+<br/>
+**C-q C-j**
+<br/>
+C-q is for quoted-insert, and C-j is a newline (0xa).
+<br/>
+替换就是 M-x replace-string
