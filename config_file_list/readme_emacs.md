@@ -12,7 +12,7 @@ FAQ
 </pre>
 * 如何复制光标所在的单词
 <br/>
-<pre>
+<pre><code>
 (defun get-point (symbol &optional arg)
   "get the point"
   (funcall symbol arg)
@@ -47,6 +47,7 @@ FAQ
   ;;(paste-to-mark arg)
   )
 (global-set-key (kbd "C-c w")         (quote copy-word))
+</code>
 </pre>
 <br/>
 **快捷键  C-c w**
