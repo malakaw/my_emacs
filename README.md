@@ -1,3 +1,8 @@
+### init配置（不需要安装第三方模块） ###
+[link text](http://url.com/ "title")
+
+### init配置（python） ###
+
 # 基本使用快捷键 #
 * C-d delete-char
 * M-d kill-word
