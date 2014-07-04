@@ -16,10 +16,7 @@ FAQ
 (defun get-point (symbol &optional arg)
   "get the point"
   (funcall symbol arg)
-  (point)
-  )
-
-
+  (point))
 (defun copy-word (&optional arg)
   "Copy words at point into kill-ring"
   (interactive "P")
