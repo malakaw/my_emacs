@@ -4,4 +4,7 @@
 [窗口布局重启恢复](https://github.com/malakaw/my_emacs/blob/master/config_file_list/windowsMode.md "title")
 * 但是对于那些clojure的nrepl是不能恢复的，需要执行其他命令，不光是就开个buffer
 
+###  clojure 使用emacs live ###
+[一个很全面，很稳定的emacs Clojure 开发版本](https://github.com/overtone/emacs-live)
+
 ### init配置（python） ###
