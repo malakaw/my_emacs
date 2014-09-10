@@ -1,5 +1,5 @@
-<center>emcas 使用配置纪录整理</center>
-**配置和功能纪录下来，一是为了自己有个学习的整理，还有就是看如果有想学习emacs的同学也可以参考下**
+<center>emcas 使用配置纪录整理</center><br/>
+*一是为了自己有个学习的整理，还有就是看如果有想学习emacs的同学也可以参考下*
 
 ###  emacs 通用配置 ###
 [init常用配置（不需要安装第三方模块）](https://github.com/malakaw/my_emacs/blob/master/config_file_list/readme_emacs.md "title")
