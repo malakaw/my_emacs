@@ -7,7 +7,7 @@
 ### 窗口布局恢复 ###
 这里分两种情况，一种是在开发过程中的窗口布局的保存与恢复，还有一种是出了前面的功能还有就是在关闭整个emacs后还是可以提取出保存的windows布局。
 
-[窗口布局重启恢复](https://github.com/malakaw/my_emacs/blob/master/config_file_list/registW.md) 很实用
+[窗口布局重启恢复](https://github.com/malakaw/my_emacs/blob/master/config_file_list/registW.md) 很实用★
 
 [窗口布局重启恢复(重启后)](https://github.com/malakaw/my_emacs/blob/master/config_file_list/windowsMode.md "title")
 * 但是对于那些clojure的nrepl是不能恢复的，需要执行其他命令，不光是就开个buffer
