@@ -16,5 +16,6 @@ emcas 使用配置纪录整理
 
 
 
-###  clojure 使用emacs live ###
-[一个很全面，很稳定的emacs Clojure 开发版本](https://github.com/overtone/emacs-live)
+###  clojure ###
+一个很全面，很稳定的emacs Clojure 开发版本, 使用emacs live.
+[github](https://github.com/overtone/emacs-live)
