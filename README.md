@@ -12,8 +12,9 @@
 [窗口布局重启恢复(重启后)](https://github.com/malakaw/my_emacs/blob/master/config_file_list/windowsMode.md "title")
 * 但是对于那些clojure的nrepl是不能恢复的，需要执行其他命令，不光是就开个buffer
 
-
-
+### Tramp 配置密码失效时间 ###
+为了避免每次输入密码的麻烦，设置下密码缓存的timeout,注意：关机后就失效了。
+(setq password-cache-expiry 2419200)  ;;上面的时间大约是28天
 ###  clojure ###
 一个很全面，很稳定的emacs Clojure 开发版本, 使用emacs live.
 [github](https://github.com/overtone/emacs-live)
